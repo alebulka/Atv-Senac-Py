@@ -26,8 +26,8 @@ def entrar():
 
 
 app = QtWidgets.QApplication([])
-tela = uic.loadUi("login.ui")
-tela2 = uic.loadUi("cadastro.ui")
+tela = app.loadUi("login.ui")
+tela2 = app.loadUi("cadastro.ui")
 tela.botaoEntrar.clicked.connect(entrar)
 
 
