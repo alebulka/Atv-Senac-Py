@@ -15,7 +15,7 @@ _This plugin was created through the Backstage CLI_
 
 ## Use
 
-Access the folder `/packages/app` and run the following command
+Access the folder `/packages/backend` and run the following command
 ```
 yarn add @portal-dx/plugin-tech-dashboard-backend
 ```
